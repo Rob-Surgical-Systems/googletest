@@ -1,0 +1,1 @@
+qcc -lang-c++ -std=gnu++14  -Vgcc_ntox86_64 -fPIC   -shared -Wl,-soname,libgtest_main.so.1.11.0 -o ../lib/libgtest_main.so.1.11.0 CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/david/source/repos/googletest/build_rss/lib: ../lib/libgtest.so.1.11.0

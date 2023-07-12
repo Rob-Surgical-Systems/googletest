@@ -1,0 +1,1 @@
+qcc -lang-c++ -std=gnu++14  -Vgcc_ntox86_64 -fPIC   -shared -Wl,-soname,libgmock.so.1.11.0 -o ../lib/libgmock.so.1.11.0 CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/david/source/repos/googletest/build_rss/lib: ../lib/libgtest.so.1.11.0
